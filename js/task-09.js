@@ -15,5 +15,5 @@ function onButtonClickChangeColor(event) {
  
   document.body.style.backgroundColor = bodyBackGrColor;
   colorInSpan.textContent = document.body.style.backgroundColor;
-  console.log(bodyBackGrColor);
+
 }
