@@ -4,7 +4,7 @@ inputEl.addEventListener('blur', onInputBlur);
 
 function onInputBlur(event) {
     if (event.currentTarget.value.length === Number(inputEl.dataset.length)) {
-        // event.preventDefault();
+      inputEl.classList.remove('invalid');
         inputEl.classList.add('valid');
         
         return;
