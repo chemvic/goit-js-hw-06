@@ -34,13 +34,3 @@ img {
 .item{
   flex-basis: calc((100% - 20px) / 3);
 }
-
-#boxes{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.box{
-  margin: 10px;
-}
